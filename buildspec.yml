@@ -8,6 +8,6 @@ phases:
     commands:
       - npm run build  # Builds the project
 artifacts:
+  base-directory: build  # Directory with output files (e.g., React app)
   files:
     - '**/*'
-  base-directory: build  # Directory with output files (e.g., React app)
